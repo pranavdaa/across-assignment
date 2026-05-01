@@ -1,3 +1,15 @@
 node_modules/
 dist/
 .env
+
+# Working docs (not for sharing)
+planning.md
+tasks.md
+unknowns.md
+design.md
+src/across/api-exploration.md
+docs/presentation-prep.md
+
+# Input files (provided by Across)
+Across Senior Solutions Architect Case Study.md
+across_docs_complete.md
