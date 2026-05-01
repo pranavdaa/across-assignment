@@ -1,0 +1,24 @@
+{
+  "name": "across-coinbase-onramp-bridge",
+  "version": "1.0.0",
+  "description": "Coinbase Onramp + Across Protocol crosschain bridge integration demo",
+  "type": "module",
+  "scripts": {
+    "onramp": "tsx src/onramp/coinbase.ts",
+    "check-balance": "tsx src/check-balance.ts",
+    "quote": "tsx src/across/quote.ts",
+    "bridge": "tsx src/across/bridge.ts",
+    "track": "tsx src/across/track.ts",
+    "full-flow": "tsx src/full-flow.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "jose": "^6.2.3",
+    "viem": "^2.48.7"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
