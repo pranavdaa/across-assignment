@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-teal: #6CF9D8;
+  --color-teal-dim: #2ECDA7;
+  --color-teal-bg: rgba(108, 249, 216, 0.1);
+  --color-card: #2D2E33;
+  --color-card-border: #3E4047;
+  --color-muted: #6C7284;
+  --color-brand-purple: #9B7DFF;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: #1B1C21;
+  color: #E0E0E0;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 8px rgba(108, 249, 216, 0.3); }
+  50% { box-shadow: 0 0 20px rgba(108, 249, 216, 0.6); }
+}
+
+.glow-pulse {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.log-entry {
+  animation: slide-in 0.2s ease-out;
+}
+
+@keyframes slide-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
