@@ -1,12 +1,5 @@
 # Internal Brief: Coinbase Onramp + Across Bridge Integration
 
-**Author:** Senior Solutions Architect
-**Date:** May 2025
-**Audience:** Across Protocol product and engineering team
-**Scope:** Friction encountered and investment recommendations from building an end-to-end Coinbase Onramp + Across bridge integration
-
----
-
 ## Proven Flow
 
 Fiat USD &rarr; Coinbase Onramp (production) &rarr; ETH on Base &rarr; Across mainnet bridge (Intents, ~2s fill) &rarr; ETH on Arbitrum
@@ -16,8 +9,6 @@ This flow works. Mainnet Intents fills are fast and reliable. The integration su
 ---
 
 ## Section 1: Friction Log
-
-Each item follows the format: **Tried X &rarr; Expected Y &rarr; Got Z &rarr; Means this at scale.**
 
 ### Critical: Blocked the integration or forced a pivot
 
